@@ -25,9 +25,7 @@ from rollupc.providers.aws_kms import retrieve_eth_address_from_public_key
         ),
     ],
 )
-def test_retrieve_eth_address_from_public_key_known_keys(
-    kms_public_key: bytes, expected_eth_address: str
-):
+def test_retrieve_eth_address_from_public_key_known_keys(kms_public_key: bytes, expected_eth_address: str):
     eth_address = retrieve_eth_address_from_public_key(kms_public_key)
 
     assert eth_address == expected_eth_address

@@ -37,9 +37,7 @@ def setup_logging(verbose: bool):
 
 @app.callback()
 def main_callback(
-    verbose: bool = typer.Option(
-        False, "--verbose", "-v", help="Enable verbose logging"
-    ),
+    verbose: bool = typer.Option(False, "--verbose", "-v", help="Enable verbose logging"),
 ):
     """Main entry point for the application."""
     setup_logging(verbose)
