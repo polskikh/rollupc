@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.uv/
+
+# Installer artifacts
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Packaging
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+.tox/
+
+# VS Code
+.vscode/
+.history/
+
+# mypy / type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyright
+pyrightconfig.json
+
+# Unit test / coverage
+nosetests.xml
+test-results/
+
+# Misc
+.DS_Store
+.idea/
+*.swp
+tags
