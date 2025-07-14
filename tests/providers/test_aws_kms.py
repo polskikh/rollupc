@@ -1,8 +1,9 @@
 import pytest
-from cryptography.hazmat.primitives.asymmetric import ec
 from cryptography.hazmat.primitives import serialization
+from cryptography.hazmat.primitives.asymmetric import ec
 from eth_utils.address import to_checksum_address
 from eth_utils.crypto import keccak
+
 from rollupc.providers.aws_kms import retrieve_eth_address_from_public_key
 
 
