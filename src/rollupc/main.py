@@ -1,5 +1,6 @@
-import typer
 import logging
+
+import typer
 
 from rollupc.providers.aws_kms import AWSKMSProvider
 
